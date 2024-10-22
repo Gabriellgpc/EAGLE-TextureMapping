@@ -56,7 +56,7 @@ public:
         //   (more details can be found in main.cpp)
         {
             // all frames' path
-            allFramesPath = "/home/wsy/TextureRecover/Datas/bloster2_1";
+            allFramesPath = "/home/lcondados/workspace/tutorials/EAGLE-TextureMapping/datas";
             // all frames' name pattern
             rgbNamePattern = "%05d." + rgbNameExt;
             dNamePattern = "%05d.png";
@@ -152,7 +152,8 @@ public:
         imgH = originImgH;
     }
 
-    void init_zhou_small(){
+    void init_zhou_small()
+    {
         originImgW = 640;
         originImgH = 480;
         cameraFx = 525.0f;
@@ -168,7 +169,7 @@ public:
         cameraDCx = cameraCx;
         cameraDCy = cameraCy;
 
-        keyFramesPath = "../../datas";
+        keyFramesPath = "/home/lcondados/workspace/tutorials/EAGLE-TextureMapping/datas";
         rgbNameExt = "jpg";
         kfRGBNamePattern = "%05d." + rgbNameExt;
         kfRGBMatch = "*." + rgbNameExt;
